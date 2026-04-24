@@ -31,6 +31,27 @@ Data always has a story to tell, but it rarely speaks clearly. It hides behind n
 
 ***
 ## Featured Projects    
+### Medicare Part D Fraud Detection
+
+**Tech Stack:** Python (Pandas, NumPy, Matplotlib, Seaborn, Folium, Scikit-Learn), Statistical Anomaly Detection
+
+**Overview:** An end-to-end fraud detection pipeline analyzing 1.8 million Medicare Part D prescription records across 62,301 Texas providers to identify statistically anomalous billing patterns consistent with fraud, waste, and abuse.
+
+**Key Highlights:**
+* Engineered three fraud signal features and applied Z-score peer benchmarking to compare each provider against their specialty group, flagging 100 high-risk providers representing $274.5 million in potentially suspicious Medicare spending.
+* Identified 16 ophthalmologists prescribing opioids, a clear specialty mismatch with no legitimate clinical justification, using targeted drug-specialty cross-analysis.
+* Built an interactive geographic map of flagged providers across Texas using Folium, with color-coded risk tiers and clickable provider detail popups.
+
+<div style="display: flex; justify-content: flex-start; margin-top: 20px; margin-bottom: 40px;">
+<a href="https://github.com/brianna-o/medicare-fraud-detection" style="text-decoration: none;">
+<button style="padding: 10px 20px; background-color: #111111; color: white; border: 1px solid #333; border-radius: 5px; cursor: pointer; font-family: sans-serif; font-weight: bold;">
+View GitHub Repo &nbsp;&rarr;
+</button>
+</a>
+</div>
+
+
+
 ### Apple Global Sales Analysis
 
 **Tech Stack:** SQL, Python (Pandas, Seaborn), Exploratory Data Analysis
